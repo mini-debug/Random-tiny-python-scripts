@@ -11,7 +11,15 @@ def rolling_average(data, k):
 
     If there are fewer than k previous values,
     average whatever is available.
+    """ 
+    
+
+def clean_signal(data):
     """
+    Cleans a list of floats or None, replacing each None with the most recent 
+    valid number before it. If None occurs at the start, it is replaced with 0
+    "" 
+    
 new_data = []
 last_valid_value = 0 
 

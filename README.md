@@ -30,6 +30,6 @@ for value in data:
         else:
             # A valid value was found; update last_valid_value and append
             last_valid_value = value
-            clean_data.append(value)
+            // clean_data.append(value) 
             
     return clean_data
